@@ -13,6 +13,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library:
+  - m_Name: corn
+    m_Hash: 1012882631
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: sprite_corn_01
+      m_Hash: 160867140
+      m_Sprite: {fileID: 21300000, guid: a32847caea407534781aa33b4e9f4fc3, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: a32847caea407534781aa33b4e9f4fc3, type: 3}
+    - m_Name: sprite_corn_02
+      m_Hash: 278917886
+      m_Sprite: {fileID: 21300000, guid: aa71ac71b4b4611438d5a3a9b9401d50, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: aa71ac71b4b4611438d5a3a9b9401d50, type: 3}
+    - m_Name: sprite_corn_03
+      m_Hash: 664322664
+      m_Sprite: {fileID: 21300000, guid: 2655039b56e68714f987c070487362ef, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2655039b56e68714f987c070487362ef, type: 3}
+    - m_Name: sprite_corn_04
+      m_Hash: 972838859
+      m_Sprite: {fileID: 21300000, guid: c987c4ba699b23d418ae6133bb78dc94, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c987c4ba699b23d418ae6133bb78dc94, type: 3}
+    - m_Name: sprite_corn_05
+      m_Hash: 251357021
+      m_Sprite: {fileID: 21300000, guid: d6744f7013a0e0c4d9b5f4e12077069b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: d6744f7013a0e0c4d9b5f4e12077069b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 0
   - m_Name: eye_l
     m_Hash: 922518805
     m_CategoryList: []
@@ -28,7 +59,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: 2064381732218340450, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 2
+    m_EntryOverrideCount: 0
   - m_Name: eye_r
     m_Hash: 217299062
     m_CategoryList: []
@@ -44,7 +75,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -7561505052321665944, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 2
+    m_EntryOverrideCount: 0
   - m_Name: leg_lb
     m_Hash: 885199959
     m_CategoryList: []
@@ -55,7 +86,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -5412332545563771232, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
+    m_EntryOverrideCount: 0
   - m_Name: leg_lf
     m_Hash: 867094606
     m_CategoryList: []
@@ -66,7 +97,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -163092028523887571, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
+    m_EntryOverrideCount: 0
   - m_Name: leg_rb
     m_Hash: 545401736
     m_CategoryList: []
@@ -77,7 +108,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -6747310785790288337, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
+    m_EntryOverrideCount: 0
   - m_Name: leg_rf
     m_Hash: 670035857
     m_CategoryList: []
@@ -88,7 +119,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -1511866488065201282, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
+    m_EntryOverrideCount: 0
   - m_Name: torso
     m_Hash: 660585605
     m_CategoryList: []
@@ -99,7 +130,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -71214687307637026, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
+    m_EntryOverrideCount: 0
   - m_Name: tail
     m_Hash: 1010283613
     m_CategoryList: []
@@ -110,7 +141,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -4047050609471339400, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
+    m_EntryOverrideCount: 0
   - m_Name: head
     m_Hash: 670299804
     m_CategoryList: []
@@ -121,7 +152,7 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: -1395652844882614076, guid: a4d6d8eafc5e0e444bee21e8e7741042, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 1
-  m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638198741340005285
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: d3395c1f4b45a61408939393c89598ed
+  m_ModificationHash: 638736767204473369
   m_Version: 1

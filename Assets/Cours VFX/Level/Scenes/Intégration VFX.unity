@@ -155,8 +155,8 @@ Camera:
   m_GameObject: {fileID: 335960196}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335960196}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.16043006, y: 0.37686956, z: 0.0664523, w: 0.9098437}
-  m_LocalPosition: {x: -7, y: 1, z: -7}
+  m_LocalRotation: {x: -0.5242276, y: 0.3151125, z: 0.21714218, w: 0.76074886}
+  m_LocalPosition: {x: -11.58, y: -12.47, z: -11.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1248014259}
-  m_LocalEulerAnglesHint: {x: -20, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: -69.141, y: 45, z: 0}
 --- !u!114 &335960200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +339,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438379617}
   m_Enabled: 1
-  m_Asset: {fileID: 0}
+  m_Asset: {fileID: 8926484042661614526, guid: e3954fb85a3982045b8be931e4016c4f, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -818,7 +818,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361636408}
   m_Enabled: 1
-  m_Asset: {fileID: 0}
+  m_Asset: {fileID: 8926484042661614526, guid: e3954fb85a3982045b8be931e4016c4f, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -827,11 +827,50 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 1
+        m_Name: Initial Rocket Lifetime
+        m_Overridden: 1
+      - m_Value: 0.4
+        m_Name: Initial Rocket Size
+        m_Overridden: 1
+      - m_Value: 30
+        m_Name: Rocket Flare Spawn Rate
+        m_Overridden: 1
+      - m_Value: 0.1
+        m_Name: Rocket Flare LifeTime
+        m_Overridden: 1
+      - m_Value: 5
+        m_Name: Rocket Flare Turbulence
+        m_Overridden: 1
+      - m_Value: 25
+        m_Name: Sparkle Count
+        m_Overridden: 1
+      - m_Value: 0.25
+        m_Name: Sparkles Size
+        m_Overridden: 1
+      - m_Value: 20
+        m_Name: Sparkle Speed
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Sparkle Turbulence
+        m_Overridden: 1
+      - m_Value: 1.5
+        m_Name: Sparkle Lifetime
+        m_Overridden: 1
+      - m_Value: 0.75
+        m_Name: Sparkles Lifetime
+        m_Overridden: 1
+      - m_Value: 20
+        m_Name: Sparkles Turbulence
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 15, z: 0}
+        m_Name: Initial Rocket Velocity
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:
@@ -843,7 +882,71 @@ VisualEffect:
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.97807676, g: 1.3794461, b: 13.343768, a: 1}
+          key1: {r: 0.5853069, g: 9.428052, b: 11.179364, a: 1}
+          key2: {r: 0.5853069, g: 9.428052, b: 11.179364, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 65535
+          ctime2: 65535
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        m_Name: Rocket Flare Color
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 2.5130885, g: 2.7410913, b: 7.999999, a: 1}
+          key1: {r: 1.035294, g: 5.0981703, b: 6.1490197, a: 1}
+          key2: {r: 0.7681515, g: 0.50157404, b: 0.13019338, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 65535
+          ctime2: 65535
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        m_Name: Sparkles Color
+        m_Overridden: 1
     m_NamedObject:
       m_Array: []
     m_Bool:
@@ -1017,13 +1120,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768122100}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.30070576, z: 0, w: 0.953717}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1615319431}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 35, z: 0}
 --- !u!73398921 &1768122102
 VFXRenderer:
   serializedVersion: 1
@@ -1074,7 +1177,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768122100}
   m_Enabled: 1
-  m_Asset: {fileID: 0}
+  m_Asset: {fileID: 8926484042661614526, guid: e12d9953554dbf34cbcb8a735530340f, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0

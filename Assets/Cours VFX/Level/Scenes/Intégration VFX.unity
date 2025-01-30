@@ -339,7 +339,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438379617}
   m_Enabled: 1
-  m_Asset: {fileID: 0}
+  m_Asset: {fileID: 8926484042661614526, guid: 896f2d1db8a42af4b8603caa85bb68b1, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -564,13 +564,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204916860}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.94703555, y: 0.05093601, z: 0.25375736, w: -0.19009581}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1248014259}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 202.7, y: -30, z: 0}
 --- !u!114 &1204916863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361636408}
   m_Enabled: 1
-  m_Asset: {fileID: 0}
+  m_Asset: {fileID: 8926484042661614526, guid: 9ba70ecbcf7c2b4429185eee5d737144, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -1074,7 +1074,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768122100}
   m_Enabled: 1
-  m_Asset: {fileID: 0}
+  m_Asset: {fileID: 8926484042661614526, guid: 7875fafb86581a148b30226c34b6e01a, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0

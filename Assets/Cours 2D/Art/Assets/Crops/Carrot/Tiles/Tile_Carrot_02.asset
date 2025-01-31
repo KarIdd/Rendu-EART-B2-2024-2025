@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Tile_Carrot_02
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: 0}
+  m_DefaultSprite: {fileID: 21300000, guid: d4eda8a3bb2da1b43a0d4ef141013f1f, type: 3}
   m_DefaultGameObject: {fileID: 6147072761198093503, guid: b756b701e3e86d949a66b1b6092de640, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules: []

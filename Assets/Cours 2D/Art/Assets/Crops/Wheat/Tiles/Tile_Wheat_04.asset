@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Tile_Wheat_04
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: 0}
+  m_DefaultSprite: {fileID: 21300000, guid: f7406ac8c968e2144899aaca1f25067f, type: 3}
   m_DefaultGameObject: {fileID: 4267784636080383371, guid: 0c7affc409cbd924eb33abc01bec2e96, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules: []

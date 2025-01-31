@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Tile_Corn_05
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: 0}
+  m_DefaultSprite: {fileID: 21300000, guid: d6744f7013a0e0c4d9b5f4e12077069b, type: 3}
   m_DefaultGameObject: {fileID: 6393031248781673410, guid: 96803fc30b7c77c4297ad4ba7edfdb17, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules: []
